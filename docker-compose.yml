@@ -1,0 +1,8 @@
+version: "2.4"
+
+services:
+  svr:
+    build: .
+    ports:
+      - "10.8.88.2:9801:9801"
+    command: /twqrp-api
